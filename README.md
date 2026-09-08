@@ -95,23 +95,23 @@ http://127.0.0.1:5000
 
 # O funcionamento ocorre da seguinte maneira:
 
-Usuário
-   ↓
-index.html
-   ↓
-script.js
-   ↓
-API Flask
-   ↓
-senha.py
-   ↓
-Geração da senha
-   ↓
-Resposta JSON
-   ↓
-script.js
-   ↓
-Senha exibida na tela
+1. Usuário
+2.    ↓
+3. index.html
+4.    ↓
+5. script.js
+6.    ↓
+7. API Flask
+8.    ↓
+9. senha.py
+10.    ↓
+11. Geração da senha
+12.    ↓
+13. Resposta JSON
+14.    ↓
+15. script.js
+16.    ↓
+17. Senha exibida na tela
 
 
 
@@ -199,14 +199,14 @@ CORS(app)
 # Interface
 A interface possui:
 
-. Tema relacionado a segurança.
-. Fundo com gradiente.
-. Layout centralizado.
-. Botão para gerar a senha.
-. Área para exibir a senha.
-. Mensagem de erro caso ocorra algum problema.
-. Layout responsivo.
-. Observação
+1. Tema relacionado a segurança.
+2. Fundo com gradiente.
+3. Layout centralizado.
+4. Botão para gerar a senha.
+5. Área para exibir a senha.
+6. Mensagem de erro caso ocorra algum problema.
+7. Layout responsivo.
+8. Observação
 
 OBS:
 Este projeto foi desenvolvido com finalidade educacional, demonstrando a comunicação entre um frontend em HTML/JavaScript e um backend em Python utilizando Flask.
