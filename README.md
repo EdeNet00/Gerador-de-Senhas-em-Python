@@ -95,10 +95,10 @@ http://127.0.0.1:5000
 
 # O funcionamento ocorre da seguinte maneira:
 
-1. Usuário
-2.    ↓
-3. index.html
-4.    ↓
+* Usuário
+*    ↓
+* index.html
+*    ↓
 5. script.js
 6.    ↓
 7. API Flask
