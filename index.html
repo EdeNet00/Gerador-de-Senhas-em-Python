@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 450px;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .opcao {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .opcao input {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .opcao label {
+            margin: 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            margin-top: 25px;
+            border: none;
+            border-radius: 10px;
+            background: #00c853;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #00a844;
+        }
+
+        .resultado {
+            margin-top: 25px;
+            padding: 15px;
+            background: #111;
+            border-radius: 10px;
+        }
+
+        #senha {
+            margin-top: 10px;
+            color: #00ff73;
+            font-size: 18px;
+            word-break: break-all;
+        }
+
+        #mensagem {
+            margin-top: 15px;
+            color: #ff5252;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🔐 Gerador de Senhas</h1>
+
+        <label for="tamanho">
+            Quantos caracteres a senha deve ter?
+        </label>
+
+        <input type="number" id="tamanho" min="1" value="12">
+
+        <label>
+            Escolha o que você quer na senha:
+        </label>
+
+        <div class="opcao">
+            <input type="checkbox" id="letras" checked>
+            <label for="letras">Letras</label>
+        </div>
+
+        <div class="opcao">
+            <input type="checkbox" id="numeros" checked>
+            <label for="numeros">Números</label>
+        </div>
+
+        <div class="opcao">
+            <input type="checkbox" id="simbolos" checked>
+            <label for="simbolos">Símbolos</label>
+        </div>
+
+        <button id="botao">🔑 GERAR SENHA</button>
+
+        <div id="mensagem"></div>
+
+        <div class="resultado">
+            <strong>Sua senha:</strong>
+            <div id="senha">Nenhuma senha gerada.</div>
+        </div>
+
+    </div>
+
+    <!-- Aqui está a mudança principal: o JS agora vem de um arquivo externo -->
+    <script src="script.js"></script>
+
+</body>
+</html>
