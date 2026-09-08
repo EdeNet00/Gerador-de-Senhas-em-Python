@@ -99,19 +99,19 @@ http://127.0.0.1:5000
 *    ↓
 * index.html
 *    ↓
-5. script.js
-6.    ↓
-7. API Flask
-8.    ↓
-9. senha.py
-10.    ↓
-11. Geração da senha
-12.    ↓
-13. Resposta JSON
-14.    ↓
-15. script.js
-16.    ↓
-17. Senha exibida na tela
+* script.js
+*    ↓
+* API Flask
+*    ↓
+* senha.py
+*    ↓
+* Geração da senha
+*    ↓
+* Resposta JSON
+*    ↓
+* script.js
+*    ↓
+* Senha exibida na tela
 
 
 
