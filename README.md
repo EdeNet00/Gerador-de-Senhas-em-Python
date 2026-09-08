@@ -5,14 +5,14 @@ O projeto permite que o usuário escolha o tamanho da senha e quais tipos de car
 
 
 # Funcionalidades:
-. Escolher o tamanho da senha.
-. Utilizar letras maiúsculas e minúsculas.
-. Utilizar números.
-. Utilizar símbolos.
-. Gerar uma senha aleatória.
-. Informar ao usuário caso nenhuma opção de caractere seja selecionada.
-. Comunicação entre JavaScript e Python através de uma API REST.
-. Utilização de CORS para permitir a comunicação entre frontend e backend.
+Escolher o tamanho da senha.
+Utilizar letras maiúsculas e minúsculas.
+Utilizar números.
+Utilizar símbolos.
+Gerar uma senha aleatória.
+Informar ao usuário caso nenhuma opção de caractere seja selecionada.
+Comunicação entre JavaScript e Python através de uma API REST.
+Utilização de CORS para permitir a comunicação entre frontend e backend.
 
 
 
