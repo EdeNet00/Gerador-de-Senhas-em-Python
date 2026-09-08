@@ -96,21 +96,21 @@ http://127.0.0.1:5000
 # O funcionamento ocorre da seguinte maneira:
 
 1. Usuário
-2.    ↓
+2.  .  ↓
 3. index.html
-4.    ↓
+4.  .  ↓
 5. script.js
-6.    ↓
+6.  .  ↓
 7. API Flask
-8.    ↓
+8.  .  ↓
 9. senha.py
-10.    ↓
+10. .   ↓
 11. Geração da senha
-12.    ↓
+12.  .  ↓
 13. Resposta JSON
-14.    ↓
+14.  .  ↓
 15. script.js
-16.    ↓
+16.  .  ↓
 17. Senha exibida na tela
 
 
